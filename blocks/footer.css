@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__copyright {
+  color: rgba(21, 21, 21, 0.7);
+  width: 104px;
+  height: 16px;
+}
