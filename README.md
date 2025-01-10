@@ -31,8 +31,17 @@ Link to the project is below:
 **Images**
 
 Here are images directly pulled from Figma for this project.
-Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
 
-![Alt text](./images/1-photo-by-moritz-feldmann-from-pexels.jpg)
+![Alt text](./images/Demo/1-photo-by-moritz-feldmann-from-pexels.jpg)
 
-![Alt text](./images/2-photo-by-ceiline-from-pexels.jpg)
+![Alt text](./images/Demo/2-photo-by-ceiline-from-pexels.jpg)
+
+![Alt text](images/Demo/3-photo-by-tubanur-dogan-from-pexels.jpg)
+
+![Alt text](images/Demo/4-photo-by-maurice-laschet-from-pexels.jpg)
+
+![Alt text](images/Demo/5-photo-by-van-anh-nguyen-from-pexels.jpg)
+
+![Alt text](images/Demo/6-photo-by-moritz-feldmann-from-pexels.jpg)
+
+![Alt text](images/Demo/avatar.jpg)
