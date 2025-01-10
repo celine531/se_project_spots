@@ -3,16 +3,26 @@
 ### Overview
 
 - Intro
+- Tech Stack
 - Figma
 - Images
 
 **Intro**
 
-This project is made so all the elements are displayed correctly on popular screen sizes.
+This project is created so all the elements are displayed correctly on popular screen sizes such as desktop view and mobile view. Responsive design, text overflow and font-face set up to name a few are used in this project.
 
-A deployment link to the project is below:
+Link to the project is below:
 
 - [Deployment Link](https://celine531.github.io/se_project_spots/)
+
+**Tech Stack**
+
+- HTML
+- CSS
+- Responsive Design (utilized to display correct screen sizes for desktop/mobile view)
+- Text Overflow (texts that are truncated after a certain point and allowing for multiple rows)
+- Font-face set up (utilizing google fonts website to set up correct font per project on Figm)
+- BEM Methodology ()
 
 **Figma**
 
@@ -20,6 +30,11 @@ A deployment link to the project is below:
 
 **Images**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
+Here are images directly pulled from Figma for this project.
+Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
+
+![Alt text](./images/1-photo-by-moritz-feldmann-from-pexels.jpg)
+
+![Alt text](./images/2-photo-by-ceiline-from-pexels.jpg)
 
 Good luck and have fun!
