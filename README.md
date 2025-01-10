@@ -36,5 +36,3 @@ Don't forget to optimize them [here](https://tinypng.com/), so your project load
 ![Alt text](./images/1-photo-by-moritz-feldmann-from-pexels.jpg)
 
 ![Alt text](./images/2-photo-by-ceiline-from-pexels.jpg)
-
-Good luck and have fun!
