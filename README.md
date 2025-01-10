@@ -11,6 +11,10 @@
 
 This project is created so all the elements are displayed correctly on popular screen sizes such as desktop view and mobile view. Responsive design, text overflow and font-face set up to name a few are used in this project.
 
+Here is a video about my project:
+
+- [link to video about my project](https://drive.google.com/file/d/1gDZHluDorm7hFgPa793DPlQuuy9ia6ll/view?usp=sharing)
+
 Link to the project is below:
 
 - [Deployment Link](https://celine531.github.io/se_project_spots/)
