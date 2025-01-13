@@ -14,21 +14,22 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 0;
   margin-bottom: 0;
+  margin-top: 12px;
 }
 
 .card__title {
+  margin: 0;
   font-weight: 500;
   font-size: 20px;
   font-family: Poppins, Arial, Helvetica, sans-serif;
-  line-height: 1;
+  line-height: 1.2;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   max-width: 350px;
   color: #212121;
-  margin-top: 12px;
+
   margin-bottom: 0;
 }
 
@@ -41,22 +42,24 @@
   opacity: 40%;
 }
 
+.card__like-btn:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
   }
 
   .card__content {
-    margin: 12px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .card__title {
     font-size: 16px;
     line-height: 1;
-  }
-
-  .card__like-btn {
-    width: 20px;
-    height: 18px;
   }
 }
