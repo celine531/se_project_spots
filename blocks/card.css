@@ -44,18 +44,12 @@
 
 .card__like-btn:hover {
   cursor: pointer;
-  opacity: 80%;
+  opacity: 100%;
 }
 
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
-  }
-
-  .card__content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
 
   .card__title {
