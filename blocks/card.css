@@ -2,12 +2,34 @@
   max-width: 413px;
 }
 
+.card__image-container {
+  position: relative;
+  display: flex;
+}
+
 .card__image {
   width: 100%;
   height: 413px;
   object-fit: cover;
   display: block;
   border-radius: 8px;
+  position: relative;
+  z-index: 0;
+}
+
+.card__trash-btn {
+  width: 32px;
+  height: 32px;
+  background: transparent url(../images/TrashDelete.svg) center no-repeat;
+  position: absolute;
+  top: 10px;
+  left: 371px;
+  border: none;
+}
+
+.card__trash-btn:hover {
+  background-image: url(../images/TrashDeleteHover.svg);
+  cursor: pointer;
 }
 
 .card__content {
@@ -38,7 +60,7 @@
   height: 20px;
   border: none;
   padding: 0;
-  background-color: transparent;
+  background: transparent url(../images/heart.svg) center no-repeat;
   opacity: 40%;
 }
 
@@ -47,9 +69,23 @@
   opacity: 100%;
 }
 
+.card__like-btn_liked {
+  background: url(../images/heartLiked.svg) center no-repeat;
+  opacity: 1;
+}
+
+.card__like-btn_liked:hover {
+  background-image: url(../images/heartLikedHover.svg);
+}
+
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
+  }
+
+  .card__trash-btn {
+    top: 10px;
+    left: 245px;
   }
 
   .card__title {
