@@ -57,7 +57,7 @@ const previewModal = document.querySelector("#preview-modal");
 const previewModalImageEl = previewModal.querySelector(".modal__image");
 const previewModalCaptionEl = previewModal.querySelector(".modal__caption");
 const previewModalCloseBtn = previewModal.querySelector(
-  ".modal__close-btn-type-preview"
+  ".modal__close-btn_type_preview"
 );
 
 // Card Related Elements
@@ -96,13 +96,13 @@ function getCardElement(data) {
     previewModalImageEl.alt = data.name;
   });
 
-  // Close preview image when clicked
-  previewModalCloseBtn.addEventListener("click", () => {
-    closeModal(previewModal);
-  });
-
   return cardElement;
 }
+
+// Close preview image when clicked
+previewModalCloseBtn.addEventListener("click", () => {
+  closeModal(previewModal);
+});
 
 function openModal(modal) {
   modal.classList.add("modal_opened");
@@ -124,6 +124,7 @@ function handleAddCardSubmit(event) {
   const inputValues = { name: cardNameInput.value, link: cardLinkInput.value };
   const cardEl = getCardElement(inputValues);
   cardsList.prepend(cardEl);
+  event.target.reset();
   closeModal(cardModal);
 }
 
