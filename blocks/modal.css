@@ -154,6 +154,7 @@
   .modal__container_type_preview {
     max-height: 604px;
     width: 288px;
+    padding: 0;
   }
 
   .modal__image {
