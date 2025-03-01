@@ -116,6 +116,7 @@ function openModal(modal) {
 function closeModal(modal) {
   modal.classList.remove("modal_opened");
   document.removeEventListener("keydown", closeModalOnEsc);
+  modal.removeEventListener("click", closeModalOnOverlay);
 }
 
 function handleEditFormSubmit(event) {
@@ -152,7 +153,6 @@ editModalCloseBtn.addEventListener("click", () => {
 });
 
 cardModalButton.addEventListener("click", () => {
-  resetValidation(cardForm, [cardLinkInput, cardNameInput], settings);
   openModal(cardModal);
 });
 
